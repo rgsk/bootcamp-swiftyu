@@ -13,6 +13,7 @@
 		D5CF8DE42A5DDB8100129DE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CF8DE32A5DDB8100129DE4 /* Preview Assets.xcassets */; };
 		D5CF8DEB2A5DE3D500129DE4 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF8DEA2A5DE3D500129DE4 /* TextBootcamp.swift */; };
 		D5CF8DED2A5DE6C900129DE4 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF8DEC2A5DE6C900129DE4 /* Practice.swift */; };
+		D5CF8DF12A5DEC9C00129DE4 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF8DF02A5DEC9C00129DE4 /* ShapesBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D5CF8DE32A5DDB8100129DE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5CF8DEA2A5DE3D500129DE4 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		D5CF8DEC2A5DE6C900129DE4 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		D5CF8DF02A5DEC9C00129DE4 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				D5CF8DEA2A5DE3D500129DE4 /* TextBootcamp.swift */,
 				D5CF8DE02A5DDB8100129DE4 /* Assets.xcassets */,
 				D5CF8DE22A5DDB8100129DE4 /* Preview Content */,
+				D5CF8DF02A5DEC9C00129DE4 /* ShapesBootcamp.swift */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5CF8DF12A5DEC9C00129DE4 /* ShapesBootcamp.swift in Sources */,
 				D5CF8DED2A5DE6C900129DE4 /* Practice.swift in Sources */,
 				D5CF8DDF2A5DDB8000129DE4 /* ContentView.swift in Sources */,
 				D5CF8DEB2A5DE3D500129DE4 /* TextBootcamp.swift in Sources */,

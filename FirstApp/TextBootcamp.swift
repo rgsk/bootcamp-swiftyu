@@ -26,7 +26,7 @@ struct TextBootcamp: View {
 //            .baselineOffset(50.0)
 //            .kerning(1.0) // space between characters
             .frame(width: 300, height: 100, alignment: .center)
-            .minimumScaleFactor(0.7) // this defines if we have a long text inside of a frame how much we can scale it down
+            .minimumScaleFactor(0.8) // this defines if we have a long text inside of a frame how much we can scale it down
         // 1.0 means no down scaling
         // 0.1 means we can scale it down to a pretty small font size so that it fits the frame
             
