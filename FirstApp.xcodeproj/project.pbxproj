@@ -11,6 +11,8 @@
 		D5CF8DDF2A5DDB8000129DE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF8DDE2A5DDB8000129DE4 /* ContentView.swift */; };
 		D5CF8DE12A5DDB8100129DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CF8DE02A5DDB8100129DE4 /* Assets.xcassets */; };
 		D5CF8DE42A5DDB8100129DE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CF8DE32A5DDB8100129DE4 /* Preview Assets.xcassets */; };
+		D5CF8DEB2A5DE3D500129DE4 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF8DEA2A5DE3D500129DE4 /* TextBootcamp.swift */; };
+		D5CF8DED2A5DE6C900129DE4 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF8DEC2A5DE6C900129DE4 /* Practice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D5CF8DDE2A5DDB8000129DE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5CF8DE02A5DDB8100129DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5CF8DE32A5DDB8100129DE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5CF8DEA2A5DE3D500129DE4 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
+		D5CF8DEC2A5DE6C900129DE4 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				D5CF8DDC2A5DDB8000129DE4 /* FirstAppApp.swift */,
 				D5CF8DDE2A5DDB8000129DE4 /* ContentView.swift */,
+				D5CF8DEC2A5DE6C900129DE4 /* Practice.swift */,
+				D5CF8DEA2A5DE3D500129DE4 /* TextBootcamp.swift */,
 				D5CF8DE02A5DDB8100129DE4 /* Assets.xcassets */,
 				D5CF8DE22A5DDB8100129DE4 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5CF8DED2A5DE6C900129DE4 /* Practice.swift in Sources */,
 				D5CF8DDF2A5DDB8000129DE4 /* ContentView.swift in Sources */,
+				D5CF8DEB2A5DE3D500129DE4 /* TextBootcamp.swift in Sources */,
 				D5CF8DDD2A5DDB8000129DE4 /* FirstAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +278,7 @@
 				DEVELOPMENT_TEAM = M4QN7DBR2B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = First;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,6 +291,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.skartner.FirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,6 +311,7 @@
 				DEVELOPMENT_TEAM = M4QN7DBR2B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = First;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +324,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.skartner.FirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
